@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Giuseppe Pellegrini</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Style for the logo image */
+.logo-img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="img\Progetto senza titolo.png" alt="Logo" class="logo-img">
+  <h1>GIUSEPPE PELLEGRINI</h1>
+  <p>Geometra e Amministratore condomini</p>
+</div>
+
+<div class="navbar">
+  <a href="areaprivata.html">Area privata</a>
+  <a href="prenotaunappuntamento.html">Prenota un appuntamento</a>
+  <a href="contattami.html">Contattami</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Orari di Lavoro</h2>
+    <h5>Da lunedì a venerdì:</h5>
+    <p>Mattina - 8.00 - 13.00</p>
+    <p>Pomeriggio - 15.00 - 20.00</p>
+    <h5>Sabato e Domenica:</h5>
+    <p>CHIUSO</p>
+  </div>
+    <div class="main">
+    <h2>DATI PRINCIPALI</h2>
+    <h5>Numero iscrizione: 1385 - Data iscrizione: 15/03/2000</h5>
+    <h5>Nome: GIUSEPPE - Cognome: PELLEGRINI</h5>
+    <h5>Luogo di nascita: Pisa (PI) - Data di nascita: 20/03/1976</h5>
+    <h5>Codice Fiscale: PLLGPP76C20G702X - Partita Iva: 01526480502</h5>
+    <h5>Anno Diploma: 1996</h5>
+    
+    <h2>DATI STUDIO</h2>
+    <h5>Indirizzo: Via Vecchia Fiorentina, 254 - CAP: 56023</h5>
+    <h5>Comune: Cascina - Provincia: PI</h5>
+    <h5>Telefono: 050770063 - Fax: </h5>
+    <h5>Cellulare lavoro: </h5>
+    <h5>Email lavoro: gp76@inwind.it</h5>
+    <h5>Email CERTIFICATA: giuseppe.pellegrini@geopec.it - Email GEOMETRI: gp76@inwind.it</h5>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>&copy- GiuseppePellegrini</h2>
+</div>
+
+</body>
+</html>
