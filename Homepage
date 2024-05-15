@@ -125,7 +125,7 @@ body {
 </div>
 
 <div class="navbar">
-  <a href="areaprivata.html">Area privata</a>
+  <a href="loginareaprivata.html">Area privata</a>
   <a href="prenotaunappuntamento.html">Prenota un appuntamento</a>
   <a href="contattami.html">Contattami</a>
 </div>
